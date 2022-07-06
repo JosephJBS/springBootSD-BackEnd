@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://sd-grupo6.database.windows.net:1433;database=SD_Grupo6_Lab1;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username: administradorsd
+    password: sdgrupo6/
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      dialect : org.hibernate.dialect.SQLServer2012Dialect
+
+server:
+  port: 8080
